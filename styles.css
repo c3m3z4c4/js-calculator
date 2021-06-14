@@ -1,0 +1,94 @@
+:root {
+  --fondo: #d1d1d1;
+  --blanco: whitesmoke;
+  --negro: #000000;
+  --borde: #151515;
+  --oxford: #252525;
+  --gris: #767676;
+  --naranja: #fe9300;
+}
+body {
+  font-size: 62.5%;
+}
+
+input {
+  font-size: 1.8rem;
+  color: var(--blanco);
+  border: none;
+  transition: ease-in 0.15s;
+}
+
+input:focus {
+  outline: none;
+  border-color: var(--borde);
+}
+
+input:hover {
+  filter: brightness(120%);
+}
+
+.calculadora {
+  height: 100%;
+  width: 100%;
+  background-color: var(--fondo);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: var(--blanco);
+  background-color: var(--negro);
+}
+
+.barra-resultado {
+  width: 100%;
+  height: 15rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+.barra-resultado span {
+  font-size: 7rem;
+}
+
+.controles {
+  height: 24rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 4.45rem);
+  grid-gap: 0.3rem;
+  border-radius: 2.5rem;
+}
+
+.operator {
+  background: var(--naranja);
+  color: var(--blanco);
+  border-radius: 2.5rem;
+}
+.operator-gray {
+  color: var(--negro);
+  background-color: var(--gris);
+  border-radius: 2.5rem;
+}
+
+.operator-out {
+  width: 100%;
+  height: 6rem;
+  background-color: #181818;
+  margin-bottom: 0.3rem;
+}
+
+.numero {
+  background-color: var(--oxford);
+  border-radius: 50%;
+}
+
+.button-lg {
+  grid-column: 1/3;
+  border-radius: 3rem;
+}
+.resultado {
+  background-color: rgba(167, 118, 4, 0.55);
+}
