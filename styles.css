@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Raleway:wght@100&display=swap");
 :root {
   --fondo: #d1d1d1;
   --blanco: whitesmoke;
@@ -7,6 +8,7 @@
   --gris: #767676;
   --naranja: #fe9300;
 }
+
 body {
   font-size: 62.5%;
 }
@@ -50,7 +52,8 @@ input:hover {
 }
 
 .barra-resultado span {
-  font-size: 7rem;
+  font-size: 5rem;
+  font-family: "Montserrat", sans-serif;
 }
 
 .controles {
