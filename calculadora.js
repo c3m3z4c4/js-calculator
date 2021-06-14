@@ -66,7 +66,9 @@ cero.addEventListener("click", function() {
     getValue(0)
 })
 
-
+punto.addEventListener("click", function() {
+    getValue(".")
+})
 
 sumar.addEventListener("click", function() {
     getValue("+")
@@ -81,7 +83,7 @@ dividir.addEventListener("click", function() {
     getValue("/")
 })
 convertir.addEventListener("click", function() {
-    getValue("*")
+    getValue("-*")
 })
 
 
